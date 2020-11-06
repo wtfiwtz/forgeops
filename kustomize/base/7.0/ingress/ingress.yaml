@@ -45,6 +45,10 @@ spec:
           servicePort: 80
         path: /admin
       - backend:
+          serviceName: ig
+          servicePort: 80
+        path: /ig
+      - backend:
           serviceName: idm
           servicePort: 80
         path: /openicf
