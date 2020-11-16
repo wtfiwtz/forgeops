@@ -15,7 +15,35 @@
         <appender-ref ref="JSON" />
     </logger>
 
-    <logger name="org.forgerock.openam.core.rest.authn.http.AuthenticationServiceV2" level="WARN">
+    <logger name="com.sun.identity.plugin" level="DEBUG">
+        <appender-ref ref="JSON" />
+    </logger>
+
+    <logger name="com.sun.identity.saml2" level="DEBUG">
+        <appender-ref ref="JSON" />
+    </logger>
+
+    <logger name="com.sun.identity.shared" level="DEBUG">
+        <appender-ref ref="JSON" />
+    </logger>
+
+    <logger name="org.forgerock.oauth2" level="DEBUG">
+        <appender-ref ref="JSON" />
+    </logger>
+
+    <logger name="org.forgerock.openam.authentication" level="DEBUG">
+        <appender-ref ref="JSON" />
+    </logger>
+
+    <logger name="org.forgerock.openam.core.rest" level="DEBUG">
+        <appender-ref ref="JSON" />
+    </logger>
+
+    <logger name="org.forgerock.openam.core.rest.authn.http.AuthenticationServiceV2" level="DEBUG">
+        <appender-ref ref="JSON" />
+    </logger>
+
+    <logger name="com.sun.identity.authentication" level="DEBUG">
         <appender-ref ref="JSON" />
     </logger>
 
